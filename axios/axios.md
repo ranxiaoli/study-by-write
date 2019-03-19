@@ -94,5 +94,4 @@
 
   25：spread(callback)，终于最后一条了，是什么，注释上面解释得很清楚哟
 
-
   总结： axios 基于XMLhttpRequest封装的，返回的是Promise对象。这么短！看来我是比较肤浅，还得努力努力在努力的学习！
