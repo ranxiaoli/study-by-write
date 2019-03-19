@@ -43,9 +43,9 @@
   12： normalizeHeaderName(headers, normalizedName), 没事多看看代码，我就不说了，就几行，或者我下次补补；
   13： 重头戏了，那就是封装XMLHttpRequest了！但是我还是不会多说，没事再看看代码，学习学习！
   14： settle： 简单来说就是resolve(response),reject(response)；
-  15： createError；
+  15： createError;
   16:  enhanceError; 具体处理error事件
-  17： parseHeaders；
+  17： parseHeaders;
   18: isURLSameOrigin;
   19: cookies 封装；
   20: isAbsoluteURL;
