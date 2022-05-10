@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>数据绑定</h2>
+  <p>
+    <%=userInfo.username%> -- <%=userInfo.age%>
+  </p>
+  <p>
+    <%-article %>
+  </p>
+  <h2>条件判断</h2>
+  <%if(flag) {%>
+    <p>是的也</p>
+  <%}%>
+
+  <h2>循环遍历</h2>
+  <%for(let i=0;i<list.length;i++){%>
+    <div>数组：<%=list[i]%></div>
+    <%}%>
+  <%- includes('footer.ejs')%>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+  <audio id="audio" controls="controls"></audio>
+  <script>
+    var sblod = new Blob([buf]);//bufs为二进制
+    var audio=document.getElementById("audio");// 设置路径使用jQuery或者直接生成dom都不生效       
+    if (window.URL) {
+      audio.src = window.URL.createObjectURL(sblod);
+    } else {
+      audio.src = sblod;
+    }
+      audio.autoplay = true;//自动播放
+  </script>
+</body>
+</html>
